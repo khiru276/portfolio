@@ -39,8 +39,7 @@ portfolio/
 
 ```bash
 git clone https://github.com/khiru276/portfolio.git
-
-1. Clone the repository:
+```
 
 2. Open index.html in your browser.
 
@@ -58,6 +57,5 @@ git clone https://github.com/khiru276/portfolio.git
 
 You can reach me through:
 
-LinkedIn
-
-GitHub
+LinkedIn(https://www.linkedin.com/in/khiruba-sangkari-a-p-malaravan-713783244/)
+GitHub(https://github.com/khiru276)
