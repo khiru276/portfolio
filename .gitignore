@@ -1,0 +1,10 @@
+# Environment variables (future-proof)
+.env
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/

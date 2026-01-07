@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS CDN script goes here -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        darkMode: 'class', // Enable dark mode via class strategy
+        theme: {
+        extend: {
+            fontFamily: {
+            roboto: ['Roboto', 'sans-serif'],
+            },
+            colors: {
+                darkGray: '#222831',
+                mediumGray: '#393e46',
+                // lightGray: '#393e40',
+                lightGray: '#282829',
+                ash: '#f2f2f2',
+                accentOrange: '#f96d00',
+            },
+        },
+        }
+    };
+    </script>
+    <!-- Google Fonts goes here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Portfolio Khiruba</title>
+</head>
+
+<body class="bg-black p-5 content-center">
+ 
+    <!-- <header>
+         <h1 class="text-[32px] font-roboto font-bold text-ash">Portfolio Khiruba</h1>
+    </header> -->
+    <!-- Main Body Container goes here -->
+    <main class="main-container mx-auto flex items-center justify-center min-h-screen bg-white rounded-lg gap-x-5">
+        <aside class="sidebar-container flex flex-col w-2/5 min-h-screen p-5 bg-darkGray rounded-lg">
+            <div class="profile-image-container bg-mediumGray rounded-lg mx-auto">
+                <img src="assets/images/korra.jpg" alt="My Profile Photo" class="rounded-lg w-full object-cover">
+            </div>
+            <div class="bg-blue-900 my-5">
+                <h2 class="text-2xl font-roboto font-bold text-ash text-center">Khiruba Sangkari</h2>
+                <p class="text-sm font-sans text-ash text-center mt-2">Web Developer | Designer | Programmer</p>
+            </div>
+            <div class="w-fit bg-mediumGray rounded-lg px-5 py-2 mx-auto shadow-lg shadow-accentOrange/50"> <!-- box-shadow shortcut: shadow-(size) shadow-(color) /50 = opacity-->
+                <p class="text-md text-center text-ash">Web Developer | Web Designer</p>
+            </div>
+            <hr class="my-5 border-accentOrange border-t-2">
+          
+            
+            
+        </aside> 
+        <div class="profile-container flex flex-col w-3/5 min-h-screen p-5 bg-darkGray rounded-lg">
+        </div>       
+    </main>
+    <footer class="mt-auto bg-accentOrange">
+        <p class="font-roboto">@ Portfolio Khiruba 2025</p>
+        <p class="font-sans">@ Portfolio Khiruba 2025</p>
+    </footer>
+</body>
+</html>
