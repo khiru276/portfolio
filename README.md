@@ -25,12 +25,17 @@ This is my personal portfolio website that is in progress built using **HTML, CS
 
 ## 📂 Project Structure
 
-portfolio/
-│
-├─ index.html # Main landing page
-├─ assets/ # Images, icons, and other media
-│ ├─ images/
+```
+📂 portfolio/
+├─ .gitignore            # Git ignore rules
+├─ index.html            # Main landing page
+├─ README.md             # This README file
+└─ assets/
+    └─ images/
+        ├─ korra.jpg
+        └─ Portrait.korra.webp
 
+```
 ---
 
 ## 🚀 How to View
@@ -49,7 +54,7 @@ git clone https://github.com/khiru276/portfolio.git
 
 ## Screenshot
 
-![Portfolio Screenshot](assets/images/Portrait.korra.webp)
+<!-- ![Portfolio Screenshot](assets/images/Portrait.korra.webp) -->
 
 ---
 
@@ -57,5 +62,5 @@ git clone https://github.com/khiru276/portfolio.git
 
 You can reach me through:
 
-LinkedIn(https://www.linkedin.com/in/khiruba-sangkari-a-p-malaravan-713783244/)
-GitHub(https://github.com/khiru276)
+[LinkedIn](https://www.linkedin.com/in/khiruba-sangkari-a-p-malaravan-713783244/)
+[GitHub](https://github.com/khiru276)
