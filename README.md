@@ -25,7 +25,7 @@ This is my personal portfolio website that is in progress built using **HTML, CS
 
 ## 📂 Project Structure
 
-```
+```markdown
 📂 portfolio/
 ├─ .gitignore            # Git ignore rules
 ├─ index.html            # Main landing page
