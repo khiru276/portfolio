@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,14 +33,14 @@
     <title>Portfolio Khiruba</title>
 </head>
 
-<body class="bg-black p-5 content-center">
+<body id="body" class="bg-black p-5 content-center">
  
     <!-- <header>
          <h1 class="text-[32px] font-roboto font-bold text-ash">Portfolio Khiruba</h1>
     </header> -->
     <!-- Main Body Container goes here -->
-    <main class="main-container mx-auto flex items-center justify-center min-h-screen bg-white rounded-lg gap-x-5">
-        <aside class="sidebar-container flex flex-col w-2/5 min-h-screen p-5 bg-darkGray rounded-lg border-2 border-accentOrange">
+    <main id="main" class="main-container mx-auto flex items-center justify-center min-h-screen bg-white rounded-lg gap-x-5">
+        <aside class="sidebar-container flex flex-col w-1/3 min-h-screen p-5 bg-darkGray rounded-lg border-2 border-accentOrange">
             <div class="profile-image-container w-32 h-32 bg-mediumGray rounded-lg mx-auto">
                 <img 
                     src="assets/images/Portrait.korra.webp" 
@@ -184,12 +184,170 @@
                 </div>
             </div>
         </aside> 
-        <div class="profile-container flex flex-col w-3/5 min-h-screen p-5 bg-darkGray rounded-lg border-2 border-accentOrange">
+        <div class="profile-container relative flex flex-col w-2/3 min-h-screen py-8 px-6 gap-y-10 bg-darkGray rounded-lg border-2 border-accentOrange">
+            <nav id="navbar" class="navbar-container absolute flex w-fit top-0 right-0 p-5 rounded-bl-lg rounded-tr-lg bg-mediumGray">
+                <ul class="navbar-items flex gap-x-4 text-ash [&>li:hover]:text-accentOrange">
+                    <li>
+                        <a href="#about" class="nav-link active">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav-link">
+                            Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#education" class="nav-link">
+                            Education
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#experience" class="nav-link">
+                            Experience
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#achievements" class="nav-link">
+                            Achievements
+                        </a>
+                  </li>
+                </ul>
+            </nav>
+
+            <!-- About Me section goes here -->
+            <section id="about" class="about-container flex flex-col">
+                <h2 class="text-2xl font-roboto font-bold text-ash">About Me</h2>
+                <hr class="my-4 border-accentOrange border-t-4 w-1/6 rounded-lg">
+                <p class="text-ash text-justify">
+                    Hello! I'm Khiruba Sangkari, a passionate web developer and designer based in Penang, Malaysia. 
+                    With a strong foundation in front-end technologies, I specialize in creating dynamic and responsive websites that provide an exceptional user experience. 
+                    My expertise includes HTML, CSS, JavaScript. I am dedicated to continuous learning and staying updated with the latest industry trends to deliver innovative solutions. 
+                    Let's work together to bring your ideas to life!
+            </section>
+            <section id="skills">
+                <h2 class="text-2xl font-roboto font-bold text-ash">About Me</h2>
+                <hr class="my-4 border-accentOrange border-t-4 w-1/6 rounded-lg">
+                <p class="text-ash text-justify">
+                    Hello! I'm Khiruba Sangkari, a passionate web developer and designer based in Penang, Malaysia. 
+                    With a strong foundation in front-end technologies, I specialize in creating dynamic and responsive websites that provide an exceptional user experience. 
+                    My expertise includes HTML, CSS, JavaScript. I am dedicated to continuous learning and staying updated with the latest industry trends to deliver innovative solutions. 
+                    Let's work together to bring your ideas to life!
+            </section>
+            <section id="education">
+                <h2 class="text-2xl font-roboto font-bold text-ash">About Me</h2>
+                <hr class="my-4 border-accentOrange border-t-4 w-1/6 rounded-lg">
+                <p class="text-ash text-justify">
+                    Hello! I'm Khiruba Sangkari, a passionate web developer and designer based in Penang, Malaysia. 
+                    With a strong foundation in front-end technologies, I specialize in creating dynamic and responsive websites that provide an exceptional user experience. 
+                    My expertise includes HTML, CSS, JavaScript. I am dedicated to continuous learning and staying updated with the latest industry trends to deliver innovative solutions. 
+                    Let's work together to bring your ideas to life!
+            </section>
+            <section id="experience">
+                <h2 class="text-2xl font-roboto font-bold text-ash">About Me</h2>
+                <hr class="my-4 border-accentOrange border-t-4 w-1/6 rounded-lg">
+                <p class="text-ash text-justify">
+                    Hello! I'm Khiruba Sangkari, a passionate web developer and designer based in Penang, Malaysia. 
+                    With a strong foundation in front-end technologies, I specialize in creating dynamic and responsive websites that provide an exceptional user experience. 
+                    My expertise includes HTML, CSS, JavaScript. I am dedicated to continuous learning and staying updated with the latest industry trends to deliver innovative solutions. 
+                    Let's work together to bring your ideas to life!
+            </section>
+            <section id="achievements">
+                <h2 class="text-2xl font-roboto font-bold text-ash">About Me</h2>
+                <hr class="my-4 border-accentOrange border-t-4 w-1/6 rounded-lg">
+                <p class="text-ash text-justify">
+                    Hello! I'm Khiruba Sangkari, a passionate web developer and designer based in Penang, Malaysia. 
+                    With a strong foundation in front-end technologies, I specialize in creating dynamic and responsive websites that provide an exceptional user experience. 
+                    My expertise includes HTML, CSS, JavaScript. I am dedicated to continuous learning and staying updated with the latest industry trends to deliver innovative solutions. 
+                    Let's work together to bring your ideas to life!
+            </section>
         </div>       
     </main>
     <footer class="mt-auto bg-accentOrange">
         <p class="font-roboto">@ Portfolio Khiruba 2025</p>
         <p class="font-sans">@ Portfolio Khiruba 2025</p>
     </footer>
+    <a href="#body" id="backToTop"
+        class="fixed bottom-6 right-6 hidden z-50 
+                bg-accentOrange text-darkGray 
+                p-3 rounded-full shadow-lg
+                hover:scale-110 transition">
+        ↑
+    </a>
+
 </body>
 </html>
+
+<script>
+
+    // Function to handle active tab to change automatically while scrolling
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    window.addEventListener("scroll", () => {
+    let current = "";
+    
+    //   sections.forEach((section) => {
+    //     const sectionTop = section.offsetTop;
+    //     const sectionHeight = section.clientHeight;
+    //     if (pageYOffset >= sectionTop - sectionHeight / 3) {
+    //       current = section.getAttribute("id");
+    //     }
+    //   });
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            if (scrollY >= sectionTop - 100) {
+                current = section.getAttribute("id");
+            }
+        });
+
+    navLinks.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("active");
+        }
+    });
+    });
+
+    // Back to Top button functionality
+    const backToTop = document.getElementById("backToTop");
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+            backToTop.classList.remove("hidden");
+        } else {
+            backToTop.classList.add("hidden");
+        }
+    });
+
+</script>
+
+<style>
+
+:root {
+  --accentOrange: #f96d00;
+}
+
+/* Navbar Styling */
+.navbar-container ul li {
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: var(--accentOrange);
+}
+
+.nav-link.active {
+    color: var(--accentOrange);
+    font-weight: 600;
+}
+
+
+</style>
